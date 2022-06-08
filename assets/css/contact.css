@@ -1,0 +1,38 @@
+#contact .button {
+    border-radius:0;
+}
+.footer{
+    margin-top:16rem;
+}
+
+.contactimg1{
+    margin-left:12rem;
+    margin-top:4rem;
+    animation: a1 3s infinite ease-in-out;
+}
+
+.contactimg2{
+    right:12rem;
+    margin-top:22rem;
+    animation: a1 3s infinite ease-in-out;
+}
+
+.contactimg3{
+    right:12rem;
+    margin-top:4rem;
+    /* animation: a1 3s infinite ease-in-out; */
+}
+
+.contactimg4{
+    margin-left:12rem;
+    margin-top:32rem;
+    /* animation: a1 3s infinite ease-in-out; */
+}
+iframe{
+    margin-top:4rem;
+}
+@media screen and (max-width:1157px){
+    .footer{
+        margin-top:4rem;
+    }
+}

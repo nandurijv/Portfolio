@@ -1,0 +1,36 @@
+/* ------------------ homepage styling ------------------ */
+.himg1{
+    position:absolute;
+    margin-left:12rem;
+    margin-top:4rem;
+    animation: a1 2s infinite ease-in-out;
+}
+
+.himg2{
+    position:absolute;
+    bottom:12rem;
+    right:8rem;
+    animation: a1 2s infinite 0.3s ease-in-out;
+}
+
+@keyframes a1 {
+    0% { transform: translate(0,  0px); }
+    60%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, 0px); }   
+}
+
+.homepage{
+    min-height:90vh;
+    /* border:2px solid var(--bg-primary); */
+}
+
+.india{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1157px){
+    .homepage{
+        min-height:100vh;
+    }
+    
+}
