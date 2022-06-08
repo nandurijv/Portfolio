@@ -6,6 +6,16 @@
     justify-content: space-between;
     align-items: center;
 }
+.left{
+    background:url('../images/giyu_tomioka.png');
+    height:250px;
+    width:250px;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position-y:-200px;
+    border:2px solid var(--bg-secondary);
+    background-size: cover;
+}
 .right{
     display: flex;
     align-items: center;
@@ -33,7 +43,7 @@
 .right .description{
     font-family:'Heebo';
     font-weight:100;
-    font-size:1rem;
+    font-size:1.5rem;
     letter-spacing: normal;
     width:30vw;
     line-height: normal;

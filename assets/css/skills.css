@@ -49,9 +49,10 @@
 }
 .lside .bar{
     position:absolute;
-    margin-top:2.7rem;
-    border:2px solid black;
-    width:150px;
+    margin-top:2.65rem;
+    margin-left:0.1rem;
+    height:5px;
+    background-color:var(--primary);
 }
 .container-2{
     flex-wrap:wrap;
@@ -79,6 +80,11 @@
     border:5px solid var(--primary);
 
 }
+
+.skillimage{
+    animation: a1 3s infinite ease;
+}
+
 @media screen and (max-width:1157px){
     #skills .container{
         flex-direction:column;

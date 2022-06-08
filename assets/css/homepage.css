@@ -15,7 +15,7 @@
 
 @keyframes a1 {
     0% { transform: translate(0,  0px); }
-    60%  { transform: translate(0, 15px); }
+    50%  { transform: translate(0, 15px); }
     100%   { transform: translate(0, 0px); }   
 }
 

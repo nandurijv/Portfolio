@@ -22,7 +22,7 @@
     margin-left:4rem;
     flex:25%;
     flex-direction: column;
-
+    animation: a1 3s infinite ease-in-out;
 }
 @media screen and (max-width:1157px){
     #work{

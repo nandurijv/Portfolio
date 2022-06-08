@@ -34,6 +34,13 @@
 iframe{
     margin-top:4rem;
 }
+
+.stars, .forks{
+    font-size:1.2rem;
+    margin:2rem;
+}
+
+
 @media screen and (max-width:1157px){
     .footer{
         margin-top:4rem;
