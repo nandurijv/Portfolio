@@ -14,6 +14,11 @@
     margin:0;
     margin-bottom:1.2rem;
 }
+
+#skills .main-head .sub-head2{
+    display: none;
+}
+
 #skills .rside{
     display: flex;
     flex-direction: column;
@@ -81,5 +86,7 @@
     #skills .main-head h1{
         font-size:xx-large;
     }
-
+    #skills .main-head .sub-head2{
+        display: block;
+    }
 }
