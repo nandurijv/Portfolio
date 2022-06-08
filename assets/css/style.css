@@ -28,8 +28,8 @@ html{
 }
 
 section{
-    margin:8rem;
-    min-height:fit-content;
+    /* margin:8rem; */
+    min-height:100vh;
     margin-top:1rem;
     display:flex;
     flex-direction: column;
@@ -48,11 +48,21 @@ section{
     padding:1.2rem;
     font-size:20px;
     background-color:var(--primary);
+    transition:0.3s all ease;
 }
 .button a{
     color:white;
     font-family:'Heebo';
     font-weight:700;
+    transition:0.3s all ease;
+}
+
+.button:hover{
+    background-color:var(--bg-primary-variant);
+    cursor:pointer;
+}
+.button:hover a{
+    color:var(--primary);
 }
 
 .heading{

@@ -2,7 +2,10 @@
     border-radius:0;
 }
 .footer{
-    margin-top:16rem;
+    text-align: center;
+    /* margin-top:16rem; */
+    position:relative;
+    bottom:-20vh;
 }
 
 .contactimg1{
@@ -34,5 +37,8 @@ iframe{
 @media screen and (max-width:1157px){
     .footer{
         margin-top:4rem;
+    }
+    section.contact{
+        margin:0;
     }
 }
