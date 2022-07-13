@@ -23,7 +23,32 @@
     flex:25%;
     flex-direction: column;
     animation: a1 3s infinite ease-in-out;
+    font-family: 'Heebo';
 }
+
+.project-img img{
+    height:200px;
+    width:350px;
+    /* border-radius:2rem; */
+}
+
+.project .title{
+    font-size:1.2rem;
+}
+.project .desc{
+    font-weight:200;
+    margin-bottom:0.2rem;
+}
+.project a{
+    text-decoration: none;
+    color:black;
+    transition:0.3s all ease;
+}
+.project a:hover{
+    color:var(--primary);
+    font-size:1.2rem;
+}
+
 @media screen and (max-width:1157px){
     #work{
         display:flex;
