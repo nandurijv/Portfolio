@@ -73,7 +73,7 @@ section{
     gap:2rem;
     margin-top:2rem;
 }
-.info{
+.main-info, .info{
     font-family:'Playfair Display';
     font-size:2rem;
     letter-spacing:0.2rem;
@@ -197,7 +197,7 @@ nav ul a:hover{
     *{
         letter-spacing:normal;
     }
-    .info{
+    .main-info, .info{
         font-size:large;
     }
     .image{

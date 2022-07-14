@@ -1,3 +1,6 @@
+#skills{
+    /* background-color:#F9F3EE; */
+}
 #skills .container{
     display: flex;
     flex-direction: row;

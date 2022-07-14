@@ -1,10 +1,10 @@
 .main-head h1{
     position:relative;
 }
-.info{
+.main-info{
     position:relative;
 }
-.info::before,.info::after, .main-head h1::before,
+.main-info::before,.main-info::after, .main-head h1::before,
 h1::after{
     content:'';
     position:absolute;
@@ -13,20 +13,20 @@ h1::after{
     right:0;
     bottom:0;
 }
-.info::before{
+.main-info::before{
     background:white;
     animation: styledShowup1 1.5s steps(15) forwards;
 }
 .head-2::before{
-    background:#f4a30c;
+    background:teal;
     animation: styledShowup2 1.5s ease-in-out forwards;
 }
 .head-1::before{
-    background:teal;
+    background:#f4a30c;
     animation: styledShowup1 1.5s ease-in-out forwards;
 }
 
-.info::after{
+.main-info::after{
     opacity:0;
     width:0.1em;
     background:black;

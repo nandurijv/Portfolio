@@ -1,5 +1,8 @@
 /* ------------------ aboutme styling ------------------ */
-
+#about-me{
+    background-color:#FCF8E8;
+    margin:0;
+}
 #about-me .container{
     display: flex;
     gap:4rem;
