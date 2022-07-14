@@ -1,0 +1,52 @@
+.main-head h1{
+    position:relative;
+}
+.info{
+    position:relative;
+}
+.info::before,.info::after, .main-head h1::before,
+h1::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.info::before{
+    background:white;
+    animation: styledShowup1 1.5s steps(15) forwards;
+}
+.head-2::before{
+    background:#f4a30c;
+    animation: styledShowup2 1.5s ease-in-out forwards;
+}
+.head-1::before{
+    background:teal;
+    animation: styledShowup1 1.5s ease-in-out forwards;
+}
+
+.info::after{
+    opacity:0;
+    width:0.1em;
+    background:black;
+    animation: blink 1s ease-in-out infinite, styledShowup1 1.5s steps(15) forwards;
+}
+
+@keyframes blink{
+    to{
+        opacity:1;
+    }
+}
+
+@keyframes styledShowup1{
+    to{
+        left:100%;
+    }
+}
+
+@keyframes styledShowup2{
+    to{
+        right:100%;
+    }
+}

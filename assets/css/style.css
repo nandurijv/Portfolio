@@ -120,7 +120,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding:2rem;
-    font-size:25px;
+    font-size:20px;
     background-color: var(--bg-primary);
 }
 
