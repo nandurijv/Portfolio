@@ -3,7 +3,10 @@
     margin-top:4rem;
     right:12rem;
 }
-
+#work{
+    margin-right:4rem;
+    margin-left:4rem;
+}
 #work .heading2{
     color:var(--primary);
     font-family:'Heebo';
@@ -15,6 +18,7 @@
 }
 #work .container{
     /* gap:2rem; */
+    margin-right:4rem;
     flex-wrap:wrap;
 }
 #work .container .project{
